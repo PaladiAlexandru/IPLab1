@@ -1,0 +1,2 @@
+Clasa Shape este clasa de baza care este moștenită de celelalte clase înafară de Main, adică toate clasele care moștenesc clasa de bază, au acces la atributele și metodele publice. Shape este abstractă pentru a nu putea fi inițializată. Cele trei clase Patrat, Triunghi și Cerc
+suprascriu o metodă moștenită, realizânduse astfel polimorfismul. Avem encapsulation, deoarece atributul 'area' din Shape, este privat și poate fi accesat doar cu metode publice. Cu ajutorul interfeței realizăm abstractizarea, deoarece nu trebuie să scriem și implementarea funcției 'spuneCeva'.
